@@ -1,0 +1,17 @@
+{
+  "image_digests": {
+    "green-agent": "ghcr.io/mdda/crypticreasoner_green-agent@sha256:e5dae6ebc2236715fdcf722f42d2e9208c203ae88aaff768c7f59abf26e040be",
+    "crypticreasoner_solver": "ghcr.io/mdda/crypticreasoner_purple-agent_baseline@sha256:9d7d90250d918460ae0efd2d783f6114b06ede806848924c2296abf4492a93bb",
+    "agentbeats-client": "ghcr.io/agentbeats/agentbeats-client@sha256:13dfe3ef4e583a80e7ce2fe3becd0ce3b879841368a7f4fa40b6ebbabeeb014e"
+  },
+  "timestamp": "2026-01-15T19:57:36Z",
+  "github_actions": {
+    "run_url": "https://github.com/mdda/agentbeats-leaderboard-crypticreasoner/actions/runs/21044435322",
+    "run_logs_url": "https://api.github.com/repos/mdda/agentbeats-leaderboard-crypticreasoner/actions/runs/21044435322/logs",
+    "ref": "refs/heads/purple-baseline",
+    "sha": "9423e91f0b191ccc129161622176a07ec286c87b",
+    "repository_url": "https://github.com/mdda/agentbeats-leaderboard-crypticreasoner",
+    "workflow_ref": "mdda/agentbeats-leaderboard-crypticreasoner/.github/workflows/run-scenario.yml@refs/heads/purple-baseline",
+    "workflow_sha": "9423e91f0b191ccc129161622176a07ec286c87b"
+  }
+}

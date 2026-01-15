@@ -1,16 +1,24 @@
 [green_agent]
-agentbeats_id = ""
-env = { API_KEY = "${GITHUB_SECRET_NAME}", LOG_LEVEL = "INFO" }
+agentbeats_id = "019bc2bc-95d2-7020-a62f-732fc3b20b4e"
+name = "crypticreasoner_setter"
+#env = { API_KEY = "${GITHUB_SECRET_NAME}", LOG_LEVEL = "INFO" }
 
 [[participants]]
-agentbeats_id = ""
-name = "role_1_name"
-env = {}
+agentbeats_id = "019bc2c3-2ab9-7a01-970e-ec2542e01a28"
+name = "crypticreasoner_solver"
+env = { GOOGLE_API_KEY = "${GOOGLE_API_KEY}" }
 
-[[participants]]
-agentbeats_id = ""
-name = "role_2_name"
-env = {}
+
 
 [config]
-# Add your assessment config here
+dataset = "cryptonite"
+
+# Can be 'train', 'val' or 'test'
+split = "val"
+
+# The tasks from the given split will be consistently shuffled based on this seed
+# Same as in paper "A Reasoning-Based Approach to Cryptic Crossword Clue Solving"
+seed=42 
+
+# Best to start small...
+num_tasks = 2

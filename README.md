@@ -107,3 +107,5 @@ Congratulations - your leaderboard is now ready to accept submissions!
   }
 ]
 ```
+
+NB: Make the packages for green and purple agents *public* !
